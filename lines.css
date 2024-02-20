@@ -1,0 +1,30 @@
+.line {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.line i {
+    position: absolute;
+    width: 2px;
+    height: 47%;
+    background-color: var(--clr);
+    border-radius: 5px;
+    transform-origin: bottom;
+    transform: scaleY(0.4);
+}
+
+.min_line i {
+    width: 2.5px;
+    height: 72px;
+}
+
+.sec_line i {
+    width: 3px;
+    height: 128px;
+}
